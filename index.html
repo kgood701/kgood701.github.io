@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kyle's Portfolio</title>
+    </head>
+     <style>
+            body {
+                background: purple;
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: cursive,sans seriff;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            [id=all-contents] {
+                max-width: 800px;
+                margin: auto;
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(239, 80, 41);
+                margin: 20px auto;
+                display: flex;
+                padding: 10px;
+                border-radius: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            [class=sidebar] {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            [class=sidebar] img {
+                width: 150px;
+            }
+            [class=content] {
+                flex: 1;
+                padding: 15px;
+            }
+            [class=interests] header {
+                font-size: 1.25em;
+            }
+        </style>
+    <body>
+        <div id="all-contents"> 
+            <nav>
+                <header>Kyle's Unfinished Website</header>
+                 <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            <main>
+                <div class="sidebar">
+                    <img src="http://vignette2.wikia.nocookie.net/no-game-no-life/images/2/27/Sora_full_version.jpg/revision/latest?cb=20140722185941">
+                </div>
+
+                <div class="content">
+                    <header>Kyle Goodwin</header>
+                    <p>Student at Edna Karr High School</p>
+                    <section class="interests">
+                        <header>Interests</header>
+                        <ul>
+                            <li>Videogames</li>
+                            <li>Anime</li>
+                            <li>Camping</li>
+                        </ul>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
