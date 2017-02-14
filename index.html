@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Kyle's Portfolio</title>
+        <title>Kyle Senpai's Realm</title>
+        <link rel="shortcut icon" href="Pokeball.ico" />
     </head>
      <style>
             body {
                 background: purple;
-                color: rgb(45, 45, 45);
+                background-image: url("https://s-media-cache-ak0.pinimg.com/originals/f1/59/86/f15986e6dd618d8fb264d312af1eeaa0.png");
+                background-size:150px 130px;
+                color: black;
                 padding: 10px;
-                font-family: cursive,sans seriff;
+                font-family: Verdana, Geneva, sans-serif;
             }
             header {
                 font-size: 1.5em;
@@ -21,16 +24,20 @@
 
             /* navigation menu */
             nav {
-                background: rgb(239, 80, 41);
-                margin: 20px auto;
+                background: rgb(255,192,203);
+                margin-bottom: 20px auto;
                 display: flex;
                 padding: 10px;
                 border-radius: 10px;
+                background-image: url("https://media.tenor.co/images/ecf9f129d7a4636a6f5eb5bfc4204242/tenor.gif");
+                background-size: 80px 60px;
+                background-repeat: no-repeat;
+                background-position: 57% 60%;
             }
             nav header {
                 display: flex;
                 align-items: center;
-                color: rgb(255, 255, 255);
+                color:black;
                 flex: 1;
             }
             nav ul {
@@ -42,20 +49,26 @@
             }
             nav a {
                 text-decoration: none;
-                color: #fff;
+                color: black;
             }
 
             /* main container area beneath menu */
             main {
                 background: rgb(245, 238, 219);
                 display: flex;
+                border-radius:10px;
+                background-color:rgb(255,192,203);
+            }
+            [id=main-content]{
+                padding: 10px;
             }
             [class=sidebar] {
                 margin-right: 25px;
                 padding: 10px;
             }
             [class=sidebar] img {
-                width: 150px;
+                width: 250px;
+                border-radius: 10px;
             }
             [class=content] {
                 flex: 1;
@@ -68,19 +81,20 @@
     <body>
         <div id="all-contents"> 
             <nav>
-                <header>Kyle's Unfinished Website</header>
+                <header>The Realm of Senpai of Kami</header>
                  <ul>
-                    <li><a href="index.html">Home</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href=""></a></li>
                 </ul>
             </nav>
+            <div id="main-content">
             <main>
                 <div class="sidebar">
-                    <img src="http://vignette2.wikia.nocookie.net/no-game-no-life/images/2/27/Sora_full_version.jpg/revision/latest?cb=20140722185941">
+                    <img src="/Kyle.png">
                 </div>
 
                 <div class="content">
-                    <header>Kyle Goodwin</header>
+                    <header>Kyle Goodiwn(Senpai of Kami)</header>
                     <p>Student at Edna Karr High School</p>
                     <section class="interests">
                         <header>Interests</header>
@@ -92,6 +106,7 @@
                     </section>
                 </div>
             </main>
+            </div>
         </div>
     </body>
 </html>
