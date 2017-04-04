@@ -1,8 +1,8 @@
-body{
+            body{
                 font-family: Verdana, Geneva, sans-serif;
             }
             header{
-                font-size: 2em;
+                font-size: 3em;
                 font-weight: bold;
                 color: pink;
             }
@@ -27,6 +27,7 @@ body{
             nav a{
                 text-decoration: none;
                 color: pink;
+                font-size: 1.5em;
             }
             draw {
                 background-image: url("/Pokeball.ico");
